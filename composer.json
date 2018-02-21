@@ -1,2 +1,54 @@
 {
+    "name": "genial-framework/optimize",
+    "keywords": [
+        "php-library",
+        "php-component",
+        "genial-framework",
+        "optimization",
+        "php72"
+    ],
+    
+    "description": "Optimize component from Genial Framework. A well coded repository used to rewrite the internal functions, classes, and constants for better use.",
+    "homepage": "https://github.com/genial-framework/Optimize",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Nicholas English",
+            "email": "nenglish0820@outlook.com",
+            "homepage": "https://github.com/obozaxy",
+            "role": "Develop/Maintain"
+        },
+        {
+            "name": "Repository Contributors",
+            "homepage": "https://github.com/genial-framework/Optimize/graphs/contributors",
+            "role": "Contribute"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Genial\\Optimize\\": "src/"
+        },
+        "files": [
+            "./rewrite-functions.php",
+            "./rewrite-classes.php",
+            "./custom-functions.php",
+            "./custom-classes.php"
+        ]
+    },
+    "require": {
+        "php": "^7.2",
+        "ext-runkit": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "prefer-stable": true
 }
