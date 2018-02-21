@@ -7,7 +7,6 @@
         "optimization",
         "php72"
     ],
-    
     "description": "Optimize component from Genial Framework. A well coded repository used to rewrite the internal functions, classes, and constants for better use.",
     "homepage": "https://github.com/genial-framework/Optimize",
     "license": "BSD-3-Clause",
